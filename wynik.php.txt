@@ -1,0 +1,34 @@
+<php<html>
+<head>
+   <title>Wyœlij email</title>
+</head>
+<body>
+	<?php
+		$a11=$_POST['a11'];
+		$a12=$_POST['a12'];
+		$a13=$_POST['a13'];
+		$a14=$_POST['a14'];
+		$a21=$_POST['a21'];
+		$a22=$_POST['a22'];
+		$a23=$_POST['a23'];
+		$a24=$_POST['a24'];
+		$a31=$_POST['a31'];
+		$a32=$_POST['a32'];
+		$a33=$_POST['a33'];
+		$a34=$_POST['a34'];
+		$W = a11*a22*a33 + a21*a32*a13 + a31*a12*a23 - a21*a12*a33 - a11*a32*a23 - a31*a22*a13;
+		if (W != 0)
+		{
+		$Wx = a14*a22*a33 + a24*a32*a13 + a34*a12*a23 - a24*a12*a33 - a14*a32*a23 - a34*a22*a13;
+		$Wy = a11*a24*a33 + a21*a34*a13 + a31*a14*a23 - a21*a14*a33 - a11*a34*a23 - a31*a24*a13;
+		$Wz = a11*a22*a34 + a21*a32*a14 + a31*a12*a24 - a21*a12*a34 - a11*a32*a24 - a31*a22*a14;
+		$x = $Wx/W;
+		$y = $Wy/W;
+		$z = $Wz/W;
+		else echo "Sprzecznosc";
+		else echo "Sprzecznosc";
+
+	?>
+</center>
+</body>
+</html>

@@ -1,0 +1,94 @@
+
+#MainMenu 
+{
+	height:20px;
+	weight:1004px;
+	background:#FFF url(images/bmid_093.gif);
+	border:0;
+	margin:0;
+}
+
+#tab 
+{
+	top:0;
+	height:0;
+	background:repeat-x top;
+	margin:0;
+}
+#tab ul 
+{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:0;
+}
+#tab li 
+{
+	display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+}
+#tab a 
+{
+	background:#000 url(images/bright_093.gif) no-repeat right top;
+	text-decoration:none;
+	border:0;
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+}
+#tab a span 
+{
+	display:block;
+	background:url(images/bleft_093.gif) no-repeat left top;
+	font-family:\"Courier New\", Courier, monospace;
+	font-size:11px;
+	color:#FFF;
+	font-weight:700;
+	line-height:20px;
+	padding:0 15px 0 13px;
+}
+#tab a:hover,#tab li.item_active a 
+{
+	background-position:right bottom;
+}
+
+#tab a:hover span,#tab li.item_active a span 
+{
+	background-position:left bottom;
+	color:#FFF;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+}
+
+#NAGLOWEK {
+	text-align: center;
+	background-color: #fff;
+}
+
+#BODY {
+	text-align: center;
+	width: 1000px;
+	float: none;
+	background-color: #fff;
+	border-style: solid;	
+	margin: 0 auto;
+}
+
+#TOP {
+
+margin-top: 0 px;
+margin-right: auto;
+margin-bottom: 0 px;
+margin-left: auto;
+
+}
+
+#STOPKA {
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
